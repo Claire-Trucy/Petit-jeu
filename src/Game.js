@@ -141,6 +141,20 @@ export default function Game({ username }) {
                     Me contacter
                   </button></a>
                 </div>
+                    <ul>
+                      <li style={{color: "#ef436b"}}>
+                        <span className="base"></span>
+                        <span className="title">Engagez</span>
+                      </li>
+                      <li style={{color: "#ffce5c"}}>
+                        <span className="base"></span>
+                        <span className="title">Moi</span>
+                      </li>
+                      <li style={{color: "#05c770"}}>
+                        <span className="base"></span>
+                        <span className="title">=D</span>
+                      </li>
+                    </ul>
               </div></>
         ) : (
           <div className="game-board">{tiles}</div>
